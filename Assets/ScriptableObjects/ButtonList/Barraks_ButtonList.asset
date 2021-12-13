@@ -17,5 +17,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: eae9eba71ffada346b456bfeb5ba3bb1, type: 2}
   - {fileID: 11400000, guid: 99bfeaef32e99804dace9f6b816d2777, type: 2}
   - {fileID: 11400000, guid: 9cf6986d835e7b249b4bbb9aba99934f, type: 2}
-  basicBuildings: []
-  Behavior: []
+  UP_button:
+  - {fileID: 11400000, guid: a15ada2d27b47bf4c818ceaa56524fb6, type: 2}
+  Behavior:
+  - {fileID: 11400000, guid: cf318541cd762a64e827b2f92b86c15a, type: 2}
+  basicBuildings:
+  - {fileID: 11400000, guid: 88035094247b806419be6529bda83ef4, type: 2}
+  Behavor2:
+  - {fileID: 11400000, guid: 33084dfe53867e746b77333c945a1eea, type: 2}
