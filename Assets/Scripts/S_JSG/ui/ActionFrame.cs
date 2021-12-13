@@ -51,27 +51,49 @@ namespace UI.HUD
                     buttons.Add(icon);
                 }
             }
-            if (actions.basicBuildings.Count > 0)
-            {
-                foreach(Building.BasicBuilding building in actions.basicBuildings)
-                {
-                    Debug.Log(actions.basicUnits);
-                    //Button btn = Instantiate(actionButton, layoutGroup);
-                   // btn.name = building.name;
-                   // GameObject icon = Instantiate(building.icon, btn.transform);
-                   // buttons.Add(icon);
-                }
-            }
-            //if (actions.Behavior.Count > 0)
+            //if (actions.basicBuildings.Count > 0)
             //{
-            //    foreach(Behavior.player_Skill p_skill in actions.Behavior)
+            //    foreach(Building.BasicBuilding building in actions.basicBuildings)
             //    {
-
-            //        GameObject icon = Instantiate(p_skill.icon, layoutGroup);
-            //        icon.name = p_skill.name;
-            //        buttons.Add(icon);
+            //        Debug.Log(actions.basicUnits);
+            //        //Button btn = Instantiate(actionButton, layoutGroup);
+            //       // btn.name = building.name;
+            //       // GameObject icon = Instantiate(building.icon, btn.transform);
+            //       // buttons.Add(icon);
             //    }
             //}
+            if (actions.Behavior.Count > 0)
+            {
+                foreach (Behavior.player_Skill p_skill in actions.Behavior)
+                {
+
+                    GameObject icon = Instantiate(p_skill.icon, layoutGroup);
+                    icon.name = p_skill.name;
+                    buttons.Add(icon);
+                }
+            }
+            if (actions.UP_button.Count > 0)
+            {
+                foreach (Behavior.UP_Btn up_btn in actions.UP_button)
+                {
+
+                    GameObject icon = Instantiate(up_btn.icon, layoutGroup);
+                    icon.name = up_btn.name;
+                    buttons.Add(icon);
+                }
+
+            }
+            if (actions.Behavor2.Count > 0)
+            {
+                foreach (Behavior.Behavior_BTN B_btn in actions.Behavor2)
+                {
+                    GameObject icon = Instantiate(B_btn.icon, layoutGroup);
+                    icon.name = B_btn.name;
+                    buttons.Add(icon);
+
+                }
+
+            }
         }
 
         public void ClearActions() //비활성화시 

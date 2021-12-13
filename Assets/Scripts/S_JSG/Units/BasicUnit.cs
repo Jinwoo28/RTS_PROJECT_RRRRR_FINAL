@@ -48,7 +48,7 @@ namespace Units
         [Space(15)]
 
         public UnitStatType.Base baseStats;
-
+            
 
     }
 }
