@@ -8,7 +8,8 @@ public class ddddd : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Mouse.SetActive(false);
+        Mouse.transform.localScale *= 20;
     }
 
     // Update is called once per frame
@@ -20,8 +21,11 @@ public class ddddd : MonoBehaviour
 
             if (Input.GetMouseButtonDown(1))
             {
-               GameObject GO =  Instantiate(Mouse, hit.point, Quaternion.identity);
-                GO.transform.localScale *= 20;
+                //GameObject GO =  Instantiate(Mouse, hit.point, Quaternion.identity);
+                // GO.transform.localScale *= 20;
+                Mouse.SetActive(false);
+                Mouse.transform.position = hit.point;
+                Mouse.SetActive(true);
 
             }
         }
