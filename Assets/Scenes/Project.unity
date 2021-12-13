@@ -2797,6 +2797,10 @@ PrefabInstance:
       propertyPath: Mouse
       value: 
       objectReference: {fileID: 938594009}
+    - target: {fileID: 5535533382083874266, guid: 492f3b2739228674fa5fcf10e072eca7, type: 3}
+      propertyPath: cursorImg
+      value: 
+      objectReference: {fileID: 2800000, guid: 447c01b7c186c3d4c9f0b677914e69b6, type: 3}
     - target: {fileID: 5535533382083874267, guid: 492f3b2739228674fa5fcf10e072eca7, type: 3}
       propertyPath: m_Name
       value: MousePoint
@@ -3359,7 +3363,7 @@ Transform:
   m_GameObject: {fileID: 1247967908}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 65, y: -0.18, z: 65}
-  m_LocalScale: {x: 13, y: 1, z: 13}
+  m_LocalScale: {x: 15, y: 1, z: 15}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 13
@@ -3730,7 +3734,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1406430982}
   m_LocalRotation: {x: 0.60876137, y: 0, z: 0, w: 0.7933534}
-  m_LocalPosition: {x: 50, y: 50.86, z: 19.9}
+  m_LocalPosition: {x: 50, y: 25, z: 19.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 829414039}
@@ -4414,7 +4418,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 50
+  orthographic size: 65
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -4438,7 +4442,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1719668778}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 50, z: 0}
+  m_LocalPosition: {x: 65, y: 50, z: 65}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
