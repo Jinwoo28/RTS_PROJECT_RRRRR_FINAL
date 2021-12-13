@@ -12,7 +12,7 @@ namespace UI.HUD
         [Space(5)]
         [Header("Units")]
         public  List <Units.BasicUnit> basicUnits = new List<Units.BasicUnit>();
-        
+
 
         [Header("Buildings")]
         [Space(15)]
@@ -24,5 +24,12 @@ namespace UI.HUD
 
         [Header("Button")]
         public List<Behavior.player_Skill>Behavior = new List<Behavior.player_Skill>();
+
+        [Header("UP_BTN")]
+        public List<Behavior.UP_Btn> UP_button = new List<Behavior.UP_Btn>();
+
+        [Header("Button2")]
+        public List<Behavior.Behavior_BTN> Behavor2 = new List<Behavior.Behavior_BTN>();
+
     }
 }
