@@ -21,7 +21,6 @@ namespace Graphics.Feedback.Scripts
             _moveToIndicatorInstance.SetActive(false);
             _moveToIndicatorInstance.transform.localScale = Vector3.one * scale;
 
-            
         }
 
         /// <summary>
